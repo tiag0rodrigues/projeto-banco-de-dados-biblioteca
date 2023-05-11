@@ -1,0 +1,23 @@
+//templates/edit-escreve.html
+{% extends "layout.html" %}
+{% block body %}
+  <div class="row">
+    <div class="col-md-4 offset-md-4">
+      <div class="card card-body">
+        <form action="/escreve/update/{{escreve[0]}}/{{escreve[1]}}" method="POST">
+          <div class="form-group">
+            <input type="number" name="id_autor" value="{{escreve[0]}}" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="number" name="idlivro_isbn" value="{{escreve[1]}}" class="form-control">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">
+              Update
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
