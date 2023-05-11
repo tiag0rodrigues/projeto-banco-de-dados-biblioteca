@@ -1,1 +1,6 @@
 # projeto-banco-de-dados-biblioteca
+
+Alunos:
+  MATHEUS DE FARIAS SANTOS
+  PEDRO HENRIQUE ISIDORIO
+  TIAGO RODRIGUES DOS SANTOS
