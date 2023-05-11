@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "cairocoders-ednalan"
 app.config['JSON_SORT_KEYS'] = False
  
- 
+#banco de dados criado na aws
 DB_HOST = "database-biblioteca.cjafgiodewwt.us-east-1.rds.amazonaws.com"
 DB_NAME = "biblioteca"
 DB_USER = "aluno"
