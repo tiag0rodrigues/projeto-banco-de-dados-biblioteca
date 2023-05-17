@@ -11,7 +11,7 @@ app.config['JSON_SORT_KEYS'] = False
 DB_HOST = "database-biblioteca.cjafgiodewwt.us-east-1.rds.amazonaws.com"
 DB_NAME = "biblioteca"
 DB_USER = "aluno"
-DB_PASS = "aluno123456"
+DB_PASS = ""#apagado security
  
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 
